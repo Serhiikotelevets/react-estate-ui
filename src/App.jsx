@@ -1,12 +1,11 @@
+import Navbar from "./components/Navbar/Navbar.jsx";
 import './layout.scss'
 
 
-function App() {
+export default function App() {
   return (
     <div className="layout">
-      Hello World again
+        <Navbar/>
     </div>
   )
 }
-
-export default App
