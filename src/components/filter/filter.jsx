@@ -41,7 +41,7 @@ export default function Filter() {
                 <div className="item">
                     <label htmlFor="maxPrice">Max Price</label>
                     <input
-                        type="text"
+                        type="number"
                         id="maxPrice"
                         name="city"
                         placeholder="any"
@@ -50,7 +50,7 @@ export default function Filter() {
                 <div className="item">
                     <label htmlFor="bedroom">Bedroom</label>
                     <input
-                        type="text"
+                        type="number"
                         id="bedroom"
                         name="city"
                         placeholder="any"

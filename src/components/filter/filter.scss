@@ -1,4 +1,8 @@
 .filter{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
  h1{
    font-weight: 300;
    font-size: 24px;
