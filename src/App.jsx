@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Layout from "./routes/layout/layout.jsx";
 import SinglePage from "./routes/singlePage/singlePage.jsx";
+import ProfilePage from "./routes/profilePage/profilePage.jsx";
 
 
 export default function App() {
@@ -27,6 +28,10 @@ export default function App() {
                         {
                             path:"/:id",
                             element:<SinglePage/>
+                        },
+                        {
+                            path:"/profile",
+                            element:<ProfilePage/>
                         },
                     ]
                 },
